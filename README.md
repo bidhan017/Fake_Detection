@@ -31,3 +31,10 @@ To ensure robust model performance and generalization, we train the model using 
 ### Evaluation
 Model performance is evaluated using metrics suitable for imbalanced datasets, including precision, recall, F1-score, and ROC AUC, calculated across all cross-validation folds. 
 
+### Result:
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+|-------|----------|-----------|--------|----------|---------|
+| Decision Tree | 0.8442 | 0.7240 ± 0.0976 | 0.7550 ± 0.6367 | 0.7029 ± 0.4617 | 0.8122 ± 0.2783 |
+| Random Forest | 0.8999 | 0.9174 ± 0.0395 | 0.7377 ± 0.7239 | 0.7484 ± 0.6437 | 0.9200 ± 0.1986 |
+| Gradient Boosting | 0.8883 | 0.8531 ± 0.0841 | 0.7024 ± 0.7441 | 0.6973 ± 0.7011 | 0.8967 ± 0.2375 |
